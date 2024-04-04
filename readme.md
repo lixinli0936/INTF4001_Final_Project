@@ -5,6 +5,15 @@ We use UK road safety data from 2018 to 2022, including collisions, vehicles, an
 * explore the data and choose the columns of facts table and the dimention tables that we use to do the query work, draw the entity relationship diagram
 * create the database and all the tables
 * load the data into database, clean the data if it is necessary
+> 00_EDA.ipynb  
+> 01_ERD.vpp  
+> 02_data_model_script.sql  
+> 03_data_loading.ipynb
+
+**How to build the data before query?**
+* download this project
+* create a database named UKAccidents
+* run all the code in 03_data_loading.ipynb, don't forget to replace the user and password before execution**
 
 ## Query and Tuning  
 * SQL query work
